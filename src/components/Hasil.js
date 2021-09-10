@@ -8,6 +8,7 @@ export default class ListCategories extends Component {
         <h4>
           <strong>Hasil</strong>
         </h4>
+        <hr />
       </Col>
     );
   }
