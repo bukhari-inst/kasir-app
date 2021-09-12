@@ -85,7 +85,7 @@ export default class Home extends Component {
             .then((res) => {
               swal({
                 title: 'Sukses Masuk Keranjang!',
-                text: 'Sekses Masuk Keranjang ' + keranjang.product.nama,
+                text: 'Sukses Masuk Keranjang ' + keranjang.product.nama,
                 icon: 'success',
                 button: 'Ok',
               });

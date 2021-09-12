@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Switch, Route, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { NavbarComponent } from 'components';
 import { Home, Succes } from 'pages';
 
 export default class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <Router>
         <NavbarComponent />
         <main>
           <Switch>
@@ -14,7 +14,7 @@ export default class App extends Component {
             <Route exact path="/succes" component={Succes} />
           </Switch>
         </main>
-      </BrowserRouter>
+      </Router>
     );
   }
 }
