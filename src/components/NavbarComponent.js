@@ -3,7 +3,7 @@ import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 
 const NavbarComponent = () => {
   return (
-    <Navbar varian="dark" expand="lg">
+    <Navbar varian="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand className="text-white" href="#home">
           <strong>Kasir App</strong>
